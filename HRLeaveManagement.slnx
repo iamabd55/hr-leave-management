@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HRLeaveManagement.API/HRLeaveManagement.API.csproj" Id="60595beb-33ef-4c90-94a3-0060b3f5800a" />
+  <Project Path="HRLeaveManagement.BLL/HRLeaveManagement.BLL.csproj" Id="21f4bdbf-9612-451d-bf49-a28843652a67" />
+  <Project Path="HRLeaveManagement.DAL/HRLeaveManagement.DAL.csproj" Id="869d63b7-580d-4fb9-adf5-67b762b3d82f" />
+  <Project Path="HRLeaveManagement.Domain/HRLeaveManagement.Domain.csproj" />
+</Solution>
