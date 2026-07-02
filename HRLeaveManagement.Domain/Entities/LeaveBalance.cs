@@ -14,7 +14,7 @@ namespace HRLeaveManagement.Domain.Entities
         public int RemainingDays => TotalDays - UsedDays; // calculated automatically
 
         // Navigation properties
-        public Employee Employee { get; set; }
-        public LeaveType LeaveType { get; set; }
+        public Employee? Employee { get; set; }
+        public LeaveType? LeaveType { get; set; }
     }
 }

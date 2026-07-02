@@ -14,7 +14,7 @@ namespace HRLeaveManagement.Domain.Entities
         public string Role { get; set; } // "Admin" or "Employee"
 
         // Navigation properties
-        public ICollection<LeaveApplication> LeaveApplications { get; set; }
-        public ICollection<LeaveBalance> LeaveBalances { get; set; }
+        public ICollection<LeaveApplication>? LeaveApplications { get; set; }
+        public ICollection<LeaveBalance>? LeaveBalances { get; set; }
     }
 }
