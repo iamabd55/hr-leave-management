@@ -11,6 +11,7 @@ namespace HRLeaveManagement.DAL.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
+        public DbSet<User> Users { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<LeaveType> LeaveTypes { get; set; }
         public DbSet<LeaveApplication> LeaveApplications { get; set; }
@@ -26,6 +27,11 @@ namespace HRLeaveManagement.DAL.Data
                 new LeaveType { Id = 2, Name = "Sick", MaxDays = 10 },
                 new LeaveType { Id = 3, Name = "Casual", MaxDays = 7 }
             );
+            modelBuilder.Entity<User>()
+            .HasOne(u => u.Employee)
+            .WithOne()
+            .HasForeignKey<User>(u => u.EmployeeId)
+            .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }
