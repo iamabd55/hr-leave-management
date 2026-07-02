@@ -11,7 +11,7 @@ namespace HRLeaveManagement.Domain.Entities
         public int MaxDays { get; set; }
 
         // Navigation properties
-        public ICollection<LeaveApplication> LeaveApplications { get; set; }
-        public ICollection<LeaveBalance> LeaveBalances { get; set; }
+        public ICollection<LeaveApplication>? LeaveApplications { get; set; }
+        public ICollection<LeaveBalance>? LeaveBalances { get; set; }
     }
 }
