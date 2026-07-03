@@ -1,11 +1,14 @@
 ﻿using HRLeaveManagement.BLL.Interfaces;
 using HRLeaveManagement.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRLeaveManagement.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
+
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
