@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\hrleavemanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\hrleavemanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\controllers\\leaveapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\controllers\\leaveapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\controllers\\leavebalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\controllers\\leavebalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|c:\\users\\it land\\source\\repos\\hr-leave-management\\hrleavemanagement.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60595BEB-33EF-4C90-94A3-0060B3F5800A}|HRLeaveManagement.API\\HRLeaveManagement.API.csproj|solutionrelative:hrleavemanagement.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IT LAND\\AppData\\Roaming\\Microsoft\\UserSecrets\\ea24d61e-258e-4a9d-889d-553055491617\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "HRLeaveManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:34:24.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HRLeaveManagement.API",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\HRLeaveManagement.API.csproj",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\HRLeaveManagement.API.csproj",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\HRLeaveManagement.API.csproj",
+              "RelativeToolTip": "HRLeaveManagement.API\\HRLeaveManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-04T06:34:03.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\LeaveApplicationController.cs",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\Controllers\\LeaveApplicationController.cs",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\LeaveApplicationController.cs",
+              "RelativeToolTip": "HRLeaveManagement.API\\Controllers\\LeaveApplicationController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:24:04.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeaveBalanceController.cs",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\LeaveBalanceController.cs",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\Controllers\\LeaveBalanceController.cs",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\LeaveBalanceController.cs",
+              "RelativeToolTip": "HRLeaveManagement.API\\Controllers\\LeaveBalanceController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:22:09.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Program.cs",
+              "RelativeToolTip": "HRLeaveManagement.API\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAowFsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:55:24.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\AppData\\Roaming\\Microsoft\\UserSecrets\\ea24d61e-258e-4a9d-889d-553055491617\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\ea24d61e-258e-4a9d-889d-553055491617\\secrets.json",
+              "ToolTip": "C:\\Users\\IT LAND\\AppData\\Roaming\\Microsoft\\UserSecrets\\ea24d61e-258e-4a9d-889d-553055491617\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\ea24d61e-258e-4a9d-889d-553055491617\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T16:08:43.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HRLeaveManagement.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\IT LAND\\source\\repos\\hr-leave-management\\HRLeaveManagement.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HRLeaveManagement.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwG0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:03:18.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
