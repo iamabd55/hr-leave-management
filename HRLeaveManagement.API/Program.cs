@@ -1,12 +1,13 @@
-﻿using HRLeaveManagement.BLL.Interfaces;
+﻿using HRLeaveManagement.API.Middleware;
+using HRLeaveManagement.BLL.Interfaces;
 using HRLeaveManagement.BLL.Services;
 using HRLeaveManagement.DAL.Data;
 using HRLeaveManagement.DAL.Interfaces;
 using HRLeaveManagement.DAL.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -89,7 +90,6 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 var jwtKey = builder.Configuration["Jwt:Key"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
 var jwtAudience = builder.Configuration["Jwt:Audience"];
-Console.WriteLine($"[DEBUG] JwtKey='{jwtKey}' Issuer='{jwtIssuer}' Audience='{jwtAudience}'");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -140,7 +140,7 @@ var app = builder.Build();
 // =====================
 // 3. Middleware Pipeline
 // =====================
-
+app.UseMiddleware<ExceptionMiddleware>();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

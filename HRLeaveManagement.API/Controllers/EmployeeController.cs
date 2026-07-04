@@ -88,5 +88,25 @@ namespace HRLeaveManagement.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("me")]
+        [Authorize] // overrides the class-level Admin-only restriction for this one action
+        public async Task<IActionResult> GetMe()
+        {
+            var employeeIdClaim = User.FindFirst("EmployeeId")?.Value;
+
+            if (string.IsNullOrEmpty(employeeIdClaim))
+                return BadRequest("This account is not linked to an employee record");
+
+            try
+            {
+                var employee = await _employeeService.GetEmployeeByIdAsync(int.Parse(employeeIdClaim));
+                return Ok(employee);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
     }
 }
